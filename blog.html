@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280">
+    <title>&Uacute;ltimas Noticias sobre Cannabis | Smoking Club 369</title>
+    <meta name="description"
+        content="Read our latest cannabis news. Updates on medical cannabis, national and international insights.">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="home-rebrand">
+
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61576252887348" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/smokingclub369/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/34613361544" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="info-icons">
+                <span><i class="fas fa-clock" style="color:#2ecc71;"></i> <span data-i18n="top-bar-open">Abierto todo el
+                        d&iacute;a</span></span>
+                <span><i class="fas fa-map-marker-alt" style="color:#2ecc71;"></i> <span
+                        data-i18n="top-bar-address">P.&ordm; Mar&iacute;timo Levante, 1, local 8, 29740 Torre del Mar,
+                        M&aacute;laga</span></span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1 translate="no" style="font-size: 1.5rem; color: var(--primary-green); font-weight: 900; letter-spacing: 1px;">SMOKING
+                <span style="color: white;">CLUB</span> 369
+            </h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="nav-inicio">Inicio</a></li>
+            <li><a href="join.html" data-i18n="nav-join">&Uacute;nete a nuestro Club Social</a></li>
+            <li><a href="blog.html" class="active" data-i18n="nav-blog">Blog</a></li>
+            <li><a href="faq.html" data-i18n="nav-faq">FAQ</a></li>
+            <li><a href="contact.html" data-i18n="nav-contact">Contacto</a></li>
+        </ul>
+        <div class="lang-selector">
+            <button class="lang-btn"><span class="flag-icon flag-en"></span> EN <i class="fas fa-chevron-down"
+                    style="font-size:0.7rem;"></i></button>
+            <div class="lang-dropdown">
+                <a href="javascript:void(0)" onclick="changeLanguage('en')"><span class="flag-icon flag-en"></span>
+                    English</a>
+                <a href="javascript:void(0)" onclick="changeLanguage('es')"><span class="flag-icon flag-es"></span>
+                    Espa&ntilde;ol</a>
+                <a href="javascript:void(0)" onclick="changeLanguage('de')"><span class="flag-icon flag-de"></span>
+                    Deutsch</a>
+                <a href="javascript:void(0)" onclick="changeLanguage('ca')"><span class="flag-icon flag-ca"></span>
+                    Català</a>
+                <a href="javascript:void(0)" onclick="changeLanguage('it')"><span class="flag-icon flag-it"></span>
+                    Italiano</a>
+                <a href="javascript:void(0)" onclick="changeLanguage('fr')"><span class="flag-icon flag-fr"></span>
+                    Français</a>
+                <a href="javascript:void(0)" onclick="changeLanguage('pt')"><span class="flag-icon flag-pt"></span>
+                    Português</a>
+            </div>
+        </div>
+
+        <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <header class="hero-section hero-brutal">
+        <div class="hero-overlay-gradient"></div>
+        <div class="hero-noise"></div>
+        <div class="hero-container">
+            <div class="hero-box glass-panel">
+                <span class="top-tag" data-i18n="blog-hero-tag"><span class="notranslate" translate="no">SMOKING CLUB 369</span> • BLOG</span>
+                <h1 class="hero-title" data-i18n="blog-hero-title">NOTICIAS &<br><span
+                        class="outline-text">CONVIVENCIA</span></h1>
+                <div class="hero-divider">
+                    <span class="line"></span>
+                    <span class="center-text" data-i18n="blog-hero-center">TU FUENTE DE INFORMACI&Oacute;N</span>
+                    <span class="line"></span>
+                </div>
+                <p class="hero-desc" data-i18n="blog-hero-desc">&Uacute;ltimas novedades, gu&iacute;as y debates del
+                    mundo cann&aacute;bico.</p>
+            </div>
+        </div>
+    </header>
+
+    <section style="background-color: #0b0b0b; padding: 100px 0 120px; position: relative; overflow: hidden;">
+        <!-- Weed Animated Background Elements -->
+        <div class="weed-bg-elements">
+            <div class="smoke-glow green-glow"></div>
+            <div class="smoke-glow purple-glow"></div>
+        </div>
+        <div class="container" style="position: relative; z-index: 2;">
+
+            <style>
+                /* Efecto brillante neon exclusivo para la secci&oacute;n blog de esta p&aacute;gina */
+                body.home-rebrand .blog-card-improved {
+                    background: rgba(15, 15, 15, 0.8) !important;
+                    backdrop-filter: blur(10px) !important;
+                    border: 1px solid var(--primary-green) !important;
+                    animation: weedStrobeBorderFixed 3s infinite linear !important;
+                    box-shadow: 0 0 15px rgba(46, 204, 113, 0.2) !important;
+                    position: relative;
+                    overflow: hidden;
+                }
+
+                body.home-rebrand .blog-card-improved::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 50%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.3), transparent);
+                    animation: slideGlow 5s infinite;
+                    z-index: 10;
+                    pointer-events: none;
+                }
+
+                body.home-rebrand .blog-card-improved:hover {
+                    box-shadow: 0 0 35px rgba(0, 255, 115, 0.4) !important;
+                }
+
+                body.home-rebrand .blog-card-improved:hover .blog-card-image img {
+                    transform: scale(1.1) rotate(2deg) !important;
+                }
+
+                body.home-rebrand .blog-date-badge {
+                    background: var(--primary-green) !important;
+                    box-shadow: 0 0 15px var(--primary-green) !important;
+                    animation: pulseNeon 2s infinite alternate !important;
+                }
+            </style>
+
+            <div class="blog-page-grid">
+
+                <article class="blog-card-improved wow-fade-up">
+                    <div class="blog-card-image">
+                        <img src="cannabis-edibles-drink-candy-muffin-4a9332-300x300.jpg" alt="Nano THC">
+                        <span class="blog-date-badge">11 MAY</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <span
+                            style="color:var(--primary-green); font-size:0.8rem; font-weight:800; text-transform:uppercase; margin-bottom:10px; display:block;"
+                            data-i18n="blog-post-tag-featured">Post
+                            Destacado</span>
+                        <h4 data-i18n="blog-p1-title">THC Nano-Emulsionado: El futuro de los comestibles de
+                            acci&oacute;n r&aacute;pida</h4>
+                        <p style="font-size:0.85rem; color:#888; margin-bottom: 20px;">11 de mayo de 2025</p>
+                        <a href="blog-nano-thc.html" class="btn-glitch" data-text="LEER M&Aacute;S »"
+                            data-i18n="blog-post-btn-read">LEER M&Aacute;S »</a>
+                    </div>
+                </article>
+
+                <article class="blog-card-improved wow-fade-up" style="animation-delay: 0.1s;">
+                    <div class="blog-card-image">
+                        <img src="8fb47adb-1c65-4a74-8a52-a171d56423aa-300x226.webp" alt="Cali Weed">
+                        <span class="blog-date-badge">11 MAY</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <h4 data-i18n="blog-p2-title">Variedades de Cali Weed: &iquest;Por qu&eacute; son tan populares
+                            en Espa&ntilde;a?</h4>
+                        <p style="font-size:0.85rem; color:#888; margin-bottom: 20px;">admin • 11 de mayo de 2025</p>
+                        <a href="blog-cali-weed.html" class="btn-glitch" data-text="LEER M&Aacute;S »"
+                            data-i18n="blog-post-btn-read">LEER M&Aacute;S »</a>
+                    </div>
+                </article>
+
+                <article class="blog-card-improved wow-fade-up" style="animation-delay: 0.2s;">
+                    <div class="blog-card-image">
+                        <img src="generated-image-3fea258a-58c0-4404-9618-d99bfdbe8957-1-300x167.jpg"
+                            alt="Social Club Reasons">
+                        <span class="blog-date-badge">20 ABR</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <h4 data-i18n="blog-p3-title">Club Social en M&aacute;laga: Las 5 mejores razones para unirse
+                        </h4>
+                        <p style="font-size:0.85rem; color:#888; margin-bottom: 20px;">admin • 20 de abril de 2025</p>
+                        <a href="blog-social-club-reasons.html" class="btn-glitch" data-text="LEER M&Aacute;S »"
+                            data-i18n="blog-post-btn-read">LEER M&Aacute;S
+                            »</a>
+                    </div>
+                </article>
+
+                <article class="blog-card-improved wow-fade-up" style="animation-delay: 0.3s;">
+                    <div class="blog-card-image">
+                        <img src="is-smoking-cannabis-legal-in-malaga_-300x300.png" alt="Legal Status">
+                        <span class="blog-date-badge">30 MAR</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <h4 data-i18n="blog-p4-title">&iquest;Es legal fumar cannabis en M&aacute;laga?</h4>
+                        <p style="font-size:0.85rem; color:#888; margin-bottom: 20px;">admin • 30 de marzo de 2025</p>
+                        <a href="blog-legal-malaga.html" class="btn-glitch" data-text="LEER M&Aacute;S »"
+                            data-i18n="blog-post-btn-read">LEER M&Aacute;S »</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-infinite-loop">
+        <div class="footer-top">
+            <div class="container footer-grid">
+
+                <div class="footer-col">
+                    <h4 data-i18n="footer-stay">&iexcl;Mantente informado!</h4>
+                    <p style="margin-bottom:15px; font-size:0.9rem;" data-i18n="footer-stay-desc">Recibe actualizaciones
+                        sobre nuestros horarios,
+                        eventos y
+                        m&aacute;s...</p>
+                    <form class="footer-form">
+                        <input type="email" placeholder="Correo electr&oacute;nico"
+                            data-i18n="footer-email-placeholder">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-i18n="footer-menu">Men&uacute;</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html" data-i18n="nav-inicio">Inicio</a></li>
+                        <li><a href="join.html" data-i18n="nav-join">&Uacute;nete a nuestro Club Social</a></li>
+                        <li><a href="blog.html" class="active" data-i18n="nav-blog">Blog</a></li>
+                        <li><a href="faq.html" data-i18n="nav-faq">FAQ</a></li>
+                        <li><a href="contact.html" data-i18n="nav-contact">Contacto</a></li>
+                        <li><a href="privacy.html">Pol&iacute;tica de Privacidad</a></li>
+                        <li><a href="terms.html">T&eacute;rminos y Condiciones</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-i18n="footer-articles">Art&iacute;culos populares</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="blog-legal-malaga.html" data-i18n="footer-blog-1">&iquest;Es legal fumar cannabis
+                                en M&aacute;laga?</a></li>
+                        <li><a href="blog-social-club-reasons.html" data-i18n="footer-blog-2">5 razones para unirse a un
+                                club en M&aacute;laga</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-i18n="footer-find">Encu&eacute;ntranos aqu&iacute;</h4>
+                    <h5 style="margin-top:15px; margin-bottom:5px;" data-i18n="footer-address-label">Direcci&oacute;n
+                    </h5>
+                    <p data-i18n="top-bar-address">P.&ordm; Mar&iacute;timo Levante, 1, local 8, 29740 Torre del Mar,
+                        M&aacute;laga</p>
+
+                    <p class="contact-highlight" style="margin-top:15px;">hello@smokingclub369.es</p>
+                    <p class="contact-highlight"><a href="https://wa.me/34613361544" style="font-weight:bold;">(+34)
+                            613361544</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <div class="copyright-text">
+                    <p data-i18n="footer-rights">Todos los derechos reservados 2025</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/profile.php?id=61576252887348" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.google.com/maps/search/P.%C2%BA%20Mar%C3%ADtimo%20Levante%2C%201%2C%20local%208%2C%2029740%20Torre%20del%20Mar%2C%20M%C3%A1laga"
+                        target="_blank">
+                        <img src="google imagen.svg" alt="Google Maps" class="social-icon-img">
+                    </a>
+                    <a href="https://www.instagram.com/smokingclub369/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/34613361544" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- BANNER PROFESIONAL DE COOKIES -->
+    <div id="cookie-banner" class="cookie-banner-glass">
+        <div class="cookie-content">
+            <div class="cookie-icon"><i class="fas fa-cookie-bite" style="color: var(--primary-green); text-shadow: 0 0 10px rgba(46, 204, 113, 0.5); font-size: 2.5rem;"></i></div>
+            <div class="cookie-text">
+                <h4 data-i18n="cookie-title" style="margin: 0 0 8px 0; font-size: 1.2rem; font-weight: 800; color: white;">Gestiona tu Privacidad</h4>
+                <p data-i18n="cookie-text" style="margin: 0; font-size: 0.9rem; color: rgba(255, 255, 255, 0.7); line-height: 1.5;">Utilizamos cookies para personalizar y mejorar tu experience. Al hacer clic en "Aceptar Todas", consientes el uso de cookies según nuestra <a href="privacy.html" style="color: var(--primary-green); text-decoration: underline; font-weight: 600;">Política de Privacidad</a>.</p>
+            </div>
+        </div>
+        <div class="cookie-buttons" style="display: flex; gap: 15px;">
+            <button id="reject-cookies" class="btn-ghost" data-i18n="cookie-btn-reject">Solo Esenciales</button>
+            <button id="accept-cookies" class="btn-real-master" data-i18n="cookie-btn-accept">Aceptar Todas</button>
+        </div>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
